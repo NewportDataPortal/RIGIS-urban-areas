@@ -1,0 +1,322 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator:
+        U.S. Department of Commerce, U.S. Census Bureau, Geography 
+        Division
+      Publication_Date: 2014
+      Title: TIGER line/shapefiles Urban Area; UrbanAreas10
+      Edition: 2014
+      Geospatial_Data_Presentation_Form: vector digital data
+      Other_Citation_Details: Suggested bibliographic reference: RIGIS, 2014. TIGER line/shapefiles Urban Area; UrbanAreas10. Rhode Island Geographic Information System (RIGIS) Data Distribution System, URL: http://www.rigis.org, Environmental Data Center, University of Rhode Island, Kingston, Rhode Island (last date accessed: 31 October 2014).
+      Online_Linkage: http://www2.census.gov/geo/tiger/TIGER2014/UAC10/tl_2014_us_uac10.zip
+      Online_Linkage: http://www.rigis.org
+  Description:
+    Abstract: After each decennial census, the Census Bureau delineates urban areas that represent densely developed territory, encompassing residential, commercial, and other nonresidential urban land uses.  In general, this territory consists of areas of high population density and urban land use resulting in a representation of the "urban footprint."
+    Purpose: For planning purposes only.
+    Supplemental_Information: There are two types of urban areas: urbanized areas (UAs) that contain 50,000 or more people and urban clusters (UCs) that contain at least 2,500 people, but fewer than 50,000 people (except in the U.S. Virgin Islands and Guam which each contain urban clusters with populations greater than 50,000).  Each urban area is identified by a 5-character numeric census code that may contain leading zeroes.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 201306
+        Ending_Date: 201405
+    Currentness_Reference: Publication Date
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: No changes or updates will be made to this version of the TIGER/Line Shapefiles.  Future releases of TIGER/Line Shapefiles will reflect updates made to the Census MAF/TIGER database.
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -71.861979
+      East_Bounding_Coordinate: -71.130568
+      North_Bounding_Coordinate: 42.018482
+      South_Bounding_Coordinate: 41.308522
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: Urban Area
+      Theme_Keyword: UA
+      Theme_Keyword: Urbanized Areas
+      Theme_Keyword: Urban Cluster
+      Theme_Keyword: UC
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Categories
+      Theme_Keyword: Boundaries
+    Place:
+      Place_Keyword_Thesaurus:
+        ANSI INCITS 38:2009 (Formerly FIPS 5-2), 
+        ANSI INCITS 31:2009 (Formerly FIPS 6-4),ANSI 
+        INCITS 454:2009 (Formerly FIPS 8-6), ANSI INCITS 
+        455:2009(Formerly FIPS 9-1), ANSI INCITS 446:2008                           (Geographic Names Information System (GNIS))
+      Place_Keyword: United States
+      Place_Keyword: U.S.
+      Place_Keyword: Rhode Island
+      Place_Keyword: Charlestown
+      Place_Keyword: Providence
+  Access_Constraints: None
+  Use_Constraints:
+    The TIGER/Line Shapefile products are not copyrighted however TIGER/Line and Census TIGER are registered trademarks of the U.S. Census Bureau.  These products are free to use in a product or publication, however acknowledgement must be given to the U.S. Census Bureau as the source.
+    The boundary information in the TIGER/Line Shapefiles are for statistical data collection and tabulation purposes only; their depiction and designation for statistical purposes does not constitute a determination of jurisdictional authority or rights of ownership or entitlement and they are not legal land descriptions.Coordinates in the TIGER/Line shapefiles have six implied decimal places, but the positional accuracy of these coordinates is not as great as the six decimal places suggest.
+    This dataset is provided 'as is.’ The producer(s) of this dataset, contributors to this dataset, the Rhode Island Geographic Information System (RIGIS) consortium, the State of Rhode Island, and the University of Rhode Island do not make any warranties of any kind for this dataset, and are not liable for any loss or damage however and whenever caused by any use of this dataset. Please acknowledge both RIGIS and the primary producer(s) of this dataset in any derived products. Versions of the RIGIS logo suitable for both printed and web-based products are available at http://www.rigis.org/logos.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization:
+          U.S. Department of Commerce, U.S. Census Bureau, 
+          Geography Division, Geographic Products Branch
+      Contact_Address:
+        Address_Type: mailing
+        Address: 4600 Silver Hill Road, Stop 7400
+        City: Washington
+        State_or_Province: DC
+        Postal_Code: 20233-7400
+        Country: United States
+      Contact_Voice_Telephone: 301-763-1128
+      Contact_Facsimile_Telephone: 301-763-4710
+      Contact_Electronic_Mail_Address: geo.tiger@census.gov
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: Accurate against National Standard Codes, Federal Information Processing (FIPS) and the Geographic Names Information System (GNIS) at the 100% level for the codes and base names.  The remaining attribute information has been examined but has not been fully tested for accuracy.
+  Logical_Consistency_Report:
+    The Census Bureau performed automated tests to ensure logical consistency and limits of shapefiles.  Segments making up the outer and inner boundaries of a polygon tie end-to-end to completely enclose the area.  All polygons are tested for closure.
+    The Census Bureau uses its internally developed geographic update system to enhance and modify spatial and attribute data in the Census MAF/TIGER database.  Standard geographic codes, such as FIPS codes for states, counties, municipalities, county subdivisions, places, American Indian/Alaska Native/Native Hawaiian areas, and congressional districts are used when encoding spatial entities.  The Census Bureau performed spatial data tests for logical consistency of the codes during the compilation of the original Census MAF/TIGER database files.  Most of the codes for geographic entities except states, counties, urban areas, Core Based Statistical Areas (CBSAs), American Indian Areas (AIAs), and congressional districts were provided to the Census Bureau by the USGS, the agency responsible for maintaining the Geographic Names Information System (GNIS).  Feature attribute information has been examined but has not been fully tested for consistency.
+    For the TIGER/Line Shapefiles, the Point and Vector Object Count for the G-polygon SDTS Point and Vector Object Type reflects the number of records in the shapefile attribute table.  For multi-polygon features, only one attribute record exists for each multi-polygon rather than one attribute record per individual G-polygon component of the multi-polygon feature.  TIGER/Line Shapefile multi-polygons are an exception to the G-polygon object type classification.  Therefore, when multi-polygons exist in a shapefile, the object count will be less than the actual number of G-polygons.
+  Completeness_Report: Data completeness of the TIGER/Line Shapefiles reflects the contents of the Census MAF/TIGER database at the time the TIGER/Line Shapefiles were created.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: U.S. Department of Commerce, U.S. Census Bureau, Geography Division
+          Publication_Date: Unpublished material
+          Title: Census MAF/TIGER database
+      Type_of_Source_Media: online
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 201306
+            Ending_Date: 201405
+        Source_Currentness_Reference: Publication Date
+      Source_Citation_Abbreviation: MAF/TIGER
+      Source_Contribution: All line segments
+    Process_Step:
+      Process_Description: TIGER/Line Shapefiles are extracted from the Census MAF/TIGER database by nation, state, county, and entity.  Census MAF/TIGER data for all of the aforementioned geographic entities are then distributed among the shapefiles each containing attributes for line, polygon, or landmark geographic data.
+      Source_Used_Citation_Abbreviation: MAF/TIGER
+      Process_Date: 2014
+    Process_Step:
+      Process_Description:
+        Data downloaded from American Fact Finder. Used the Select by Location tool to select the Urban Areas intersecting the Rhode Island state boundary. Exported selection to its own shapefile. Re-projected the data from GCS North American, to Rhode Island State Plane Feet. Clipped Urban Areas to the Rhode Island state boundary as some areas extended to Boston, MA. 
+        Data contributed to RIGIS by the University of Rhode Island Environmental Data Center. Metadata were adapted, minor updates made to content, RIGIS distribution information added. Credit for primary source metadata authorship remains with the U.S. Census Bureau.
+      Source_Used_Citation_Abbreviation: MAF/TIGER
+      Process_Date: 20141024
+      Source_Produced_Citation_Abbreviation: UrbanAreas14
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: Environmental Data Center at the University of Rhode Island
+            Contact_Person: Erica Tefft
+          Contact_Address:
+            Address_Type: mailing and physical
+            Address: 1 Greenhouse Road
+            City: Kingston
+            State_or_Province: RI
+            Postal_Code: 02881
+            Country: USA
+          Contact_Voice_Telephone: 401-874-5054
+          Contact_Electronic_Mail_Address: erica_tefft@my.uri.edu
+          Contact_Instructions: email preferred
+Spatial_Data_Organization_Information:
+  Indirect_Spatial_Reference: Federal Information Processing Series (FIPS), Geographic Names Information System (GNIS), and feature names.
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: polygon
+      Point_and_Vector_Object_Count: 4
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Map_Projection:
+        Map_Projection_Name: NAD 1983 StatePlane Rhode Island FIPS 3800 Feet
+        Transverse_Mercator:
+          Scale_Factor_at_Central_Meridian: 0.99999375
+          Longitude_of_Central_Meridian: -71.5
+          Latitude_of_Projection_Origin: 41.08333333333334
+          False_Easting: 328083.3333333333
+          False_Northing: 0.0
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.000000007286382608384659
+          Ordinate_Resolution: 0.000000007286382608384659
+        Planar_Distance_Units: foot_us
+    Geodetic_Model:
+      Horizontal_Datum_Name: D North American 1983
+      Ellipsoid_Name: GRS 1980
+      Semi-major_Axis: 6378137.0
+      Denominator_of_Flattening_Ratio: 298.257222101
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: UrbanAreas10.shp
+      Entity_Type_Definition: 2010 Census Urban Area National Shapefile
+      Entity_Type_Definition_Source: U.S. Census Bureau
+    Attribute:
+      Attribute_Label: FID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: Esri
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: Shape
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: Esri
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+    Attribute:
+      Attribute_Label: UACE10
+      Attribute_Definition: 2010 Census urban area code
+      Attribute_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 00001
+          Range_Domain_Maximum: 98999
+    Attribute:
+      Attribute_Label: GEOID10
+      Attribute_Definition: Urban area identifier, a concatenation of Current state Federal Information Processing Series (FIPS) code and urban area code
+      Attribute_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: The GEOID10 attribute is a concatenation of the state FIPS code followed by the urban area code. No spaces are allowed between the two codes. The State FIPS code is taken from "National Standard Codes (ANSI INCITS 38-2009), Federal Information Processing Series(FIPS) - States". The urban area code code is taken from the "UACE10" attribute.
+    Attribute:
+      Attribute_Label: NAME10
+      Attribute_Definition: 2010 Census urban area name
+      Attribute_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Values for this attribute are composed of a set of Census urban area names. As such, they do not exist in a known, predefined set.
+    Attribute:
+      Attribute_Label: NAMELSAD10
+      Attribute_Definition: 2010 Census name and the translated legal/statistical area description for urban area
+      Attribute_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Refer to the name in the 'NAME' field and the translated legal/statistical area description code for urban areas
+    Attribute:
+      Attribute_Label: LSAD10
+      Attribute_Definition: 2010 Census legal/statistical area description code for urban area
+      Attribute_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 75
+          Enumerated_Domain_Value_Definition: Urbanized Area
+          Enumerated_Domain_Value_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 76
+          Enumerated_Domain_Value_Definition: Urban Cluster
+          Enumerated_Domain_Value_Definition_Source: U.S. Census Bureau
+    Attribute:
+      Attribute_Label: MTFCC10
+      Attribute_Definition: MAF/TIGER feature class code
+      Attribute_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: G3500
+          Enumerated_Domain_Value_Definition: Urban Area
+          Enumerated_Domain_Value_Definition_Source: U.S. Census Bureau
+    Attribute:
+      Attribute_Label: UATYP10
+      Attribute_Definition: 2010 Census urban area type
+      Attribute_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: U
+          Enumerated_Domain_Value_Definition: Urbanized Area (suffix)
+          Enumerated_Domain_Value_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: C
+          Enumerated_Domain_Value_Definition: Urban cluster (suffix)
+          Enumerated_Domain_Value_Definition_Source: U.S. Census Bureau
+    Attribute:
+      Attribute_Label: FUNCSTAT10
+      Attribute_Definition: 2010 Census functional status
+      Attribute_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: S
+          Enumerated_Domain_Value_Definition: Statistical entity
+          Enumerated_Domain_Value_Definition_Source: U.S. Census Bureau
+    Attribute:
+      Attribute_Label: ALAND10
+      Attribute_Definition: 2010 Census land area (square meters)
+      Attribute_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 9,999,999,999,999
+    Attribute:
+      Attribute_Label: AWATER10
+      Attribute_Definition: 2010 Census water area (square meters)
+      Attribute_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 9,999,999,999,999
+    Attribute:
+      Attribute_Label: INTPTLAT10
+      Attribute_Definition: 2010 Census latitude of the internal point
+      Attribute_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: -90.000000
+          Range_Domain_Maximum: 90.000000
+    Attribute:
+      Attribute_Label: INTPTLON10
+      Attribute_Definition: 2010 Census longitude of the internal point
+      Attribute_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: -180.000000
+          Range_Domain_Maximum: 180.000000
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: University of Rhode Island Environmental Data Center
+        Contact_Person: Erica Tefft
+      Contact_Address:
+        Address_Type: mailing and physical
+        Address: 1 Greenhouse Road
+        City: Kingston
+        State_or_Province: RI
+        Postal_Code: 02881
+      Contact_Voice_Telephone: 401-874-5054
+      Contact_Electronic_Mail_Address: erica@edc.uri.edu
+      Contact_Instructions: email preferred
+  Distribution_Liability: This dataset is provided 'as is.'  The producer(s) of this dataset, contributors to this dataset, the Rhode Island Geographic Information System (RIGIS) consortium, the State of Rhode Island, and the University of Rhode Island do not make any warranties of any kind for this dataset, and are not liable for any loss or damage however and whenever caused by any use of this dataset.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: Esri shapefile
+        File_Decompression_Technique: ZIP
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: http://www.rigis.org
+    Fees: No fee for downloading directly from the RIGIS Data Distribution System located at http://www.rigis.org.
+Metadata_Reference_Information:
+  Metadata_Date: 20140601
+  Metadata_Review_Date: 20141031
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Geographic Products Branch
+      Contact_Address:
+        Address_Type: mailing
+        Address: 4600 Silver Hill Road, Stop 7400
+        City: Washington
+        State_or_Province: DC
+        Postal_Code: 20233-7400
+        Country: United States
+      Contact_Voice_Telephone: 301-763-1128
+      Contact_Facsimile_Telephone: 301-763-4710
+      Contact_Electronic_Mail_Address: geo.tiger@census.gov
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
